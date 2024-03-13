@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background:  #071e33;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    width: 100vw;
+    margin-bottom: 50px;
+}
+
+.navigation-container {
+    display: flex;
+    padding: 3px 2px;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.logo {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.fab {
+    padding: 10px 8px;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #071e33;
+}
+
+.form-container {
+    background-color: aliceblue;
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
